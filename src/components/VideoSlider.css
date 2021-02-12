@@ -1,0 +1,16 @@
+.video-slider {
+  display: flex;
+
+  width: 100%;
+}
+.video-container {
+  width: 1200px;
+  height: 720px;
+  margin: 20px;
+  overflow: hidden;
+}
+.video-container > video {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
