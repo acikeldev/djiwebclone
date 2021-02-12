@@ -1,0 +1,149 @@
+.footer {
+  background: #272727;
+  padding: 72px 140px;
+  min-width: 1235px;
+}
+.footer-category {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-item {
+  text-align: left;
+  color: #fff;
+  width: 221px;
+  height: 392px;
+}
+.footer-item > ul {
+  list-style-type: none;
+}
+.footer-item > p {
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.footer-item > ul > li {
+  font-size: 12px;
+  color: #9fa3a6;
+  transition: all 0.3s ease;
+  line-height: 24px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.form {
+  display: flex;
+  margin-top: 20px;
+}
+.form > input {
+  display: inline-block;
+  font-size: 14px;
+  color: #6c7073;
+  height: 32px;
+  width: 189px;
+  background: 0 0;
+  border: 1px solid #6c7073;
+  outline: none;
+
+  border-right: none;
+  vertical-align: middle;
+  border-radius: 4px 0 0 4px;
+}
+.form-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 34px;
+  font-size: 12px;
+  line-height: 1;
+  color: #fff;
+  background: #6c7073;
+  border: none;
+  outline: none;
+  vertical-align: middle;
+  border-radius: 0 4px 4px 0;
+}
+.form-img > img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+.footer-about {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 5px;
+  border-bottom: 1px solid #6c7073;
+}
+.footer-navi {
+  width: 1100px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.footer-about-left {
+  display: flex;
+
+  align-items: center;
+  gap: 20px;
+}
+.footer-about-left > p {
+  color: #6c7073;
+  font-size: 12px;
+}
+.footer-about-right {
+  display: flex;
+  align-items: center;
+}
+.footer-about-right > img {
+  vertical-align: middle;
+  height: 16px;
+  width: 16px;
+  margin: 0 5px;
+}
+br {
+  color: #6c7073;
+  height: 1px;
+}
+.footer-bottom {
+  color: #6c7073;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0 0;
+  margin-left: 20px;
+
+  align-items: flex-end;
+}
+.footer-legal {
+  display: flex;
+}
+.legal-links {
+  display: flex;
+  gap: 15px;
+}
+.legal-links > li {
+  font-size: 12px;
+}
+.footer-change-country {
+  display: flex;
+  gap: 5px;
+  color: #9fa3a6;
+}
+.change-local > span {
+  font-size: 12px;
+}
+.footer-ad-desc {
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.footer-ad-desc > div {
+  font-weight: 400;
+  line-height: 16px;
+  color: #616466;
+  font-size: 12px;
+  margin-left: 10px;
+}

@@ -1,0 +1,49 @@
+.explore {
+  min-width: 1230px;
+  margin-bottom: 20px;
+}
+.explore-title {
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+.explore-cards {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.explore-card {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 512px;
+  width: 389px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.explore-card > h1 {
+  font-size: 32px;
+  letter-spacing: 1.3px;
+  line-height: 36px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+.explore-card > h3 {
+  max-width: 300px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

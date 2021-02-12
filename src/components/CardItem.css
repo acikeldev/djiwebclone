@@ -1,0 +1,63 @@
+.card-item {
+  height: 576px;
+  width: 735px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.card-item-banner {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.banner-text {
+  max-width: 520px;
+  padding-top: 48px;
+  margin: auto;
+  text-align: center;
+}
+.banner-text-eyebrow {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.banner-text > img {
+  margin: 16px auto;
+  display: block;
+}
+.banner-text > h5 {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 800;
+}
+.learn-more {
+  margin-top: 20px;
+}
+
+.learn-more > span {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.learn-more > i {
+  width: 24px;
+  height: 24px;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.card-name {
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
